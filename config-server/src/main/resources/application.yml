@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: https://https://github.com/MichaelWojda/StockAnalyzer/configurations
-          search-paths: configuration-files
-          try-master-branch: false
+          uri: https://github.com/MichaelWojda/StockAnalyzer
+          search-paths: configurations
+          default-label: master

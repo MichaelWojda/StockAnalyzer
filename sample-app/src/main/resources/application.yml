@@ -1,0 +1,14 @@
+server:
+  port: 10000 #${random.int(10000,10010)}
+spring:
+  application:
+    name: sample-app
+  config:
+    import: optional:configserver:http://localhost:8888,optional:configserver:http://localhost:8889
+  cloud:
+    config:
+      label: master
+      #fail-fast: true
+  profiles:
+    active: development
+

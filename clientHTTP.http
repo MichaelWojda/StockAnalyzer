@@ -1,1 +1,6 @@
 GET http://localhost:8888/application-development.yml
+
+
+####
+
+GET http://localhost:10000/api/v1/hello
